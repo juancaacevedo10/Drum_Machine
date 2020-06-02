@@ -47,7 +47,7 @@ class App extends  React.Component {
  
   render(){
     return(
-      <div id="drum-machine" className="container">
+      <div id="drum-machine" className="container ">
         <div id="display" className="display">
         <h1>Toca la cancion</h1>
         {sounds.map((sound,index)=>(
